@@ -567,9 +567,8 @@ background-image: url("img/GoodMarket/goodmarket_thumb.svg");
 /*Resume Pages*/ 
 
 	.resume-grid {grid-gap: 30px;
-	  grid-template-columns: auto;
 	  width: 100%}
-	.resume-item5 {grid-area: 1 / 2 / 5 / 6;}
+	.right-cloumn{width:100%}
 	
 }
 
