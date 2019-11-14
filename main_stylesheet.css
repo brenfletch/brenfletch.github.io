@@ -884,7 +884,7 @@ intro-work{
 	resume-container{display:block}
 	resume-header{display: block}
 	.resume-grid {
-		rid-template-columns: auto;
+		grid-template-columns: auto;
 	    width: 100%}
 	.resume-close{position: absolute;
                   top: 10px;
