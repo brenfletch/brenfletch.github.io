@@ -624,7 +624,7 @@ contact{
 	
 	
 header{width: 100%}
-main{width: 100%}
+main{display:block;width: 100%}
 nav{font-size: 1em}
 h2{font-size:1em}
 .logo{width:500px}
@@ -786,7 +786,7 @@ left {display: none;}
 left.contact {display: none;}
 right {display: none;}
 	
-main{width: 100%}
+main{display:block;width: 100%}
 	
 	
 	about{
@@ -863,38 +863,24 @@ intro-work{
 		width: 100%
 		}
 	
-	.section-right-contact{
-	    max-height:400px;
-		text-align: center;
-		}
-	
+	.section-right-contact{max-height:400px;text-align: center;}
 	.nametag{top:55px}
-	
-	.img-space{
-		  width: 100%;
-          height: 170px;}
-	
+	.img-space{width: 100%;height: 170px;}
 	.lineart2{display: none;}
+	.grid-item{height: 100%;padding: 5% 0}
 	
-	.grid-item{
-		height: 100%;
-        padding: 5% 0}
+	
+	
 	
 	/*Resume Pages*/ 
 	resume-container{display:block}
 	resume-header{display: block}
-	.resume-grid {
-		grid-template-columns: auto;
-	    width: 100%}
+	.resume-grid {grid-template-columns: auto;width: 100%}
 	.resume-close{position: absolute;
                   top: 10px;
 		          right: 10px}
-	.title{font-size: 1em;
-		margin:30px 0}
-	
-	.resume-item5 {grid-area: 1}
-
-	
+	.title{font-size: 1em;margin:30px 0}
+	.resume-item5 {grid-area: 1}	
 }
 
 
