@@ -65,7 +65,7 @@ h4{
 
 h5{
 	color: #2A3166;
-	font-size: 1.5em;
+	font-size: 1em;
     font-weight: 300;
     text-transform: uppercase}
 
@@ -73,6 +73,7 @@ h6{
 	color: #FF6F61;
 	font-size: 1.5em;
     font-weight: 300;
+	margin-bottom:10px;
     text-transform: uppercase}
 
 
@@ -316,14 +317,35 @@ resume-header{
 	    padding: 40px 40px;
         width: 1440px}
 
+.hrspace{margin: 30px 0}
 
+.resume-close{position: absolute;
+                  top: 30px;
+		          right: 30px}
 .resume-grid {
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 60px;
   margin: 0 auto;
-  padding: 30px ;
-  width: 100%}
+  padding: 40px 40px;
+  width: 1440px}
+
+.resume-item5 {
+  grid-area: 1 / 2 / 5 / 6;
+}
+
+
+.right-cloumn{
+	width:100%
+}
+
+.title{color: #2A3166;
+	font-size: 1.5em;
+    font-weight: 300;
+    text-transform: uppercase}
+
+
+
 
 
 
@@ -502,7 +524,7 @@ background-image:url(img/VolatilityHub/volhub_thumb.png);
 }
 
 
-@media only screen and (max-width: 1920px)and (min-width:1112px) {
+@media only screen and (max-width: 1920px)and (min-width:1024px) {
 	    nav{font-size: 1em}
 	    nav2{font-size: 1em}
 	    h2{font-size:1em}
@@ -516,6 +538,12 @@ background-image:url(img/VolatilityHub/volhub_thumb.png);
 	
        .item2 {
 	    grid-column: 1 / span 2;}
+	
+	
+	/*Resume Pages*/ 
+	.resume-grid {width: 100%}
+	.right-cloumn{width:60%}
+	.resume-item5 {grid-area: 1 / 2 / 5 / 6;}
 }
 
 
@@ -532,6 +560,14 @@ background-image:url(img/VolatilityHub/volhub_thumb.png);
 		 margin: 40px;
          padding: 30px}
        .item2 {grid-column: 1 / span 2}
+	
+/*Resume Pages*/ 
+
+	.resume-grid {grid-gap: 30px;
+	  grid-template-columns: auto;
+	  width: 100%}
+	.resume-item5 {grid-area: 1 / 2 / 5 / 6;}
+	
 }
 
 
@@ -653,7 +689,16 @@ main{display: block;
 	h3{padding-bottom:2%}
 	
     nav2{display: none;}
-
+	
+	
+	/*Resume Pages*/ 
+	resume-container{display:block}
+	resume-header{display: block}
+	.resume-grid {grid-template-columns: auto;
+	width: 100%}
+	.title{font-size: 1.2em;
+		margin:30px 0}
+	.resume-item5 {grid-area: 1}
 
 }
 
@@ -834,6 +879,22 @@ intro-work{
           height: 170px;}
 	
 	.lineart2{display: none;}
+	
+	/*Resume Pages*/ 
+	resume-container{display:block}
+	resume-header{display: block}
+	.resume-grid {grid-template-columns: auto;
+	width: 100%}
+	.resume-close{position: absolute;
+                  top: 10px;
+		          right: 10px}
+	.title{font-size: 1em;
+		margin:30px 0}
+	
+	.resume-item5 {
+  grid-area: 1;
+}
+
 	
 }
 
