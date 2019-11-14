@@ -320,8 +320,6 @@ resume-header{
 	    padding: 40px 40px;
         width: 1440px}
 
-main{width:100%}
-
 .hrspace{margin: 30px 0}
 
 .resume-close{position: absolute;
@@ -532,6 +530,7 @@ background-image: url("img/GoodMarket/goodmarket_thumb.svg");
 	    nav{font-size: 1em}
 	    nav2{font-size: 1em}
 	    h2{font-size:1em}
+	    main{width:100%}
 	   .logo{width:600px}
 	   .section-right-work{height: 100%;}
 	
@@ -554,6 +553,7 @@ background-image: url("img/GoodMarket/goodmarket_thumb.svg");
 	    nav{font-size: 1em}
 	    nav2{font-size: 1em}
 	    h2{font-size:1em}
+	    main{width:100%}
 	   .logo{width:600px}
 	   .section-right-work{height: 100%;}
 	   
@@ -639,9 +639,6 @@ intro{
 intro-work{
 	margin:0;
 	width:100%}
-
-main{display: block;
-	width: 100%}
 	
 .section-left{
 	display: block;
@@ -790,11 +787,7 @@ left {display: none;}
 left.contact {display: none;}
 right {display: none;}
 	
-main{
-	display: block;
-	height: auto;
-	margin: 0 auto;
-    width: 100%}
+main{width: 100%}
 	
 	
 	about{
