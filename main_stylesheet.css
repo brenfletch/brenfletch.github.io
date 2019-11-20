@@ -472,21 +472,21 @@ width: 100%;
 
 
 .work-img1{
-background-image: url("img/GoodMarket/goodmarket_thumb.svg");
+background-image: url("img/GoodMarket/goodmarket_thumb.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%
 }
 
 .work-img2{
-    background-image:url("img/Lincoln/core_thumb.png");
+	background: url(img/Lincoln/core_thumb.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%
 }
 
 .work-img3{
-    background-image:url("img/Lincoln/FN/fn_thumb.svg");
+    background-image:url("img/Lincoln/FN/thumb_template.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%
