@@ -95,9 +95,15 @@ a.secondarynav{color: #2A3166;
   padding:0;
   text-decoration: none}
 
+a.thirdnav{
+  color: #2A3166;
+  margin:0 20px;
+  padding:0;
+  text-decoration: underline}
+
 a:hover.main{border-bottom:2px solid #ED7779}
 
-a:hover.secondarynav{border-bottom:2px solid #FF6F61}
+a:hover.secondarynav{border-bottom:2px solid #ED7779}
 
 
 nav{
