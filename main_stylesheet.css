@@ -76,9 +76,38 @@ h6{
 	margin-bottom:10px;
     text-transform: uppercase}
 
+left {
+	background-color: #fff;
+	border-left: 0 solid transparent;
+	border-right: 110px solid transparent;
+	border-top: 100vh solid #CAE7DF;
+	display: block;
+	left:0;
+	position: absolute;
+    width: 50%;
+	z-index: 0;
+}
+
+right {
+	display: block;
+	position: absolute;
+	right:0;
+	width: 50%;
+	z-index: 0;
+}
+
+intro{
+	display: block;
+	width:50%;
+}
+
+p{line-height: 2em;
+margin-bottom: 10px;}
+
+
+
 
 /*NAV*/
-
 
 a{color: #2A3166;
   margin:0;
@@ -118,6 +147,8 @@ nav2{
     font-weight: 600;
     bottom: 0;
     padding-bottom: 5%}
+
+.current{border-bottom:2px solid #2A3166}
 
 
 
@@ -168,8 +199,19 @@ main{
 	z-index: 1}
 
 
+about{
+	display: block;
+	margin:0 0 0 80px;
+    width:45%
+}
 
 
+
+
+
+
+
+/*Work Section*/
 
 container3{background-color: #fff;
 	       display: flex;
@@ -178,65 +220,10 @@ container3{background-color: #fff;
 	       min-height: 100vh;
 	      }
 
-container4{background-color: #fff;
-	       display: flex;
-           justify-content: center;
-	       width: 100%;
-		   min-height: 100vh;
-	     }
-
-
-
-left {
-	background-color: #fff;
-	border-left: 0 solid transparent;
-	border-right: 110px solid transparent;
-	border-top: 100vh solid #CAE7DF;
-	display: block;
-	left:0;
-	position: absolute;
-    width: 50%;
-	z-index: 0;
-}
-
-right {
-	display: block;
-	position: absolute;
-	right:0;
-	width: 50%;
-	z-index: 0;
-}
-
-
-about{
-	display: block;
-	margin:0 0 0 80px;
-    width:45%
-}
-
 work{
 	display: block;
     margin: 0 0 0 80px;
     width: 45%;
-}
-
-contact{
-	display: block;
-	margin:0 0 0 80px;
-    width:45%
-}
-
-figure{
-	width: 100%;
-	height: 50%;
-	margin:0;
-	position: relative;
-   	text-align: center;
-}
-
-intro{
-	display: block;
-	width:50%;
 }
 
 intro-work{
@@ -248,9 +235,29 @@ intro-work{
 	width:50%}
 
 
-p{line-height: 2em;
-margin-bottom: 10px;}
 
+
+/*Contact Section*/
+
+container4{background-color: #fff;
+	       display: flex;
+           justify-content: center;
+	       width: 100%;
+		   min-height: 100vh;
+	     }
+
+contact{
+	display: block;
+	margin:0 0 0 80px;
+    width:45%
+}
+
+
+
+
+
+
+/*Footer Section*/
 footer{background-color: #ED7779;
 	   display: flex;
        justify-content: flex-start;
@@ -269,7 +276,7 @@ box2{
 		
 
 
-	/*Case Study Pages*/
+/*Case Study Pages*/
 
 container{
 	      background-color: #2A3166 !important;
@@ -358,7 +365,7 @@ resume-header{
 
 
 /*ID*/
-#menu-icon {;
+#menu-icon {
     display: none;
 	width: 40px;
 	height: 40px;
@@ -369,7 +376,7 @@ resume-header{
 /*CLASSES*/
 
 
-.current{border-bottom:2px solid #2A3166}
+
 
 .logo{align-items: center;
 	  box-sizing: border-box;
