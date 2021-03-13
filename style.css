@@ -395,9 +395,9 @@ background: #F7B500;
 	
 	
 	.fixed-bg{
-		background-attachment: inherit;
 		height:500px;
-		width:100%
+		width:100%;
+		grid-column:1 / 12
 
 }
 
