@@ -379,7 +379,7 @@ width: 20px;
 .work{display:none}
 	
 .fixed-bg{
-	background-size: 414px auto;
+	background-size: 75% auto;
 	background-attachment: scroll;
 	height:400px;
 	width:100%;
@@ -434,7 +434,7 @@ width: 20px;
 	
 	
 	.fixed-bg{
-	background-size: 414px auto;
+	background-size: 75% auto;
 	background-attachment: scroll;
 	height:400px;
 	width:100%;
