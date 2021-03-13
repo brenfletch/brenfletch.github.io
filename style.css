@@ -456,7 +456,9 @@ background: #F7B500;
 	}
 	
 	
-		.fixed-bg{height:320px;
+	.fixed-bg{
+		width: 320px;
+		height:320px;}
 }
 	
 	
@@ -501,7 +503,9 @@ background: #F7B500;
 	.work{display: none}
 	
 	
-	.fixed-bg{height:320px;}
+	.fixed-bg{
+		width: 320px;
+		height:320px;}
 
  
 	footer{
