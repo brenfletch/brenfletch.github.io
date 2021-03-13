@@ -339,7 +339,7 @@ background: #F7B500;
 	h1{font-size: 48px;}
 	
 	.fixed-bg{
-	background-size:100%;
+	background-size:cover;
 	height:500px;
 	width:100%;
 	grid-column:1 / 13;}
