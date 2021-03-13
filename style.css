@@ -259,11 +259,11 @@ width: 20px;
 	h1{font-size: 48px;}
 	
 	.fixed-bg{
-	background-size: 100% auto;
+	background-size: 1440px auto;
 	background-attachment: scroll;
-	height:600px;
+	height:500px;
 	width:100%;
-	grid-column:1 / 13;}
+}
 	
 
 
@@ -323,11 +323,11 @@ width: 20px;
 	
 	
 .fixed-bg{
-	background-size: 100% auto;
+	background-size: 1024px auto;
 	background-attachment: scroll;
-	height:500px;
+	height:400px;
 	width:100%;
-	grid-column:1 / 12;}
+}
 	
 	
 	footer{
