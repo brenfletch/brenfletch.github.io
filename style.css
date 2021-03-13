@@ -172,13 +172,6 @@ img {
 }
 
 
-
-
-.portfolioimage{
-	background-color: aqua;
-	grid-column: 1 / 13;
-}
-
 .fixed-bg{
 	height:700px;
 	background-attachment: fixed;
@@ -186,6 +179,7 @@ img {
 	background-size: cover;
 	background-position: center center;
 	grid-column: 1 / 13;
+	width:100%;
 }
 
 .scroll-bg {
@@ -397,7 +391,8 @@ background: #F7B500;
 	
 	
 	.fixed-bg{
-	height:315px;
+		width: 100%;
+	    height:600px;
 }
 
 	footer{
@@ -456,10 +451,10 @@ background: #F7B500;
 	}
 	
 	
-	.fixed-bg{
-		width: 320px;
-		height:320px;}
-}
+		.fixed-bg{
+		width: 100%;
+	    height:600px;}
+
 	
 	
 }
@@ -504,8 +499,8 @@ background: #F7B500;
 	
 	
 	.fixed-bg{
-		width: 320px;
-		height:320px;}
+		width: 100%;
+	    height:600px;}
 
  
 	footer{
