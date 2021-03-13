@@ -378,11 +378,12 @@ width: 20px;
 	
 .work{display:none}
 	
-	.fixed-bg{
-	background-size:cover;
+.fixed-bg{
+	background-size: 414px auto;
+	background-attachment: scroll;
 	height:400px;
 	width:100%;
-	grid-column:1 / 9;}
+}
 
  
 	footer{
@@ -433,9 +434,11 @@ width: 20px;
 	
 	
 	.fixed-bg{
+	background-size: 414px auto;
+	background-attachment: scroll;
 	height:400px;
 	width:100%;
-	grid-column:1 / 2;}
+}
 
  
 	footer{
