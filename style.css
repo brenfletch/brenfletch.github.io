@@ -337,6 +337,19 @@ background: #F7B500;
 }
 	
 	h1{font-size: 48px;}
+	
+		.fixed-bg{
+		height:500px;
+		width:100%;
+		grid-column:1 / 12;
+		background-attachment: scroll;
+	background-repeat:no-repeat;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+	background-position: center center;
+}
 
 
  
@@ -397,8 +410,14 @@ background: #F7B500;
 	.fixed-bg{
 		height:500px;
 		width:100%;
-		grid-column:1 / 12
-
+		grid-column:1 / 12;
+		background-attachment: scroll;
+	background-repeat:no-repeat;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+	background-position: center center;
 }
 
 	footer{
