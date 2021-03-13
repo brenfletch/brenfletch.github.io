@@ -404,7 +404,7 @@ background: #F7B500;
 	   display: flex;
 	   grid-column: 2 / 12;
 	   justify-content: space-between;
-	   margin-top:40px;
+	   padding:30px;
 	
 }
 	
@@ -451,11 +451,8 @@ background: #F7B500;
 
  
 	footer{
-	   border-top: 1px solid #979797;
-	   display: flex;
 	   grid-column: 2 / 8;
-	   justify-content: space-between;
-	   margin:40px 30px;
+	   padding:30px;
 	}
 	
 	
@@ -508,17 +505,11 @@ background: #F7B500;
 
  
 	footer{
-	   display: flex;
 	   grid-column: 1 / 2;
-	   justify-content: space-between;
-	   margin-top:40px;
-	   padding-right:30px;
+	   padding:30px;
 	   width: 100%;
 	
 }
-	
-
-
 	
 }
 
