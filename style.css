@@ -396,7 +396,7 @@ background: #F7B500;
 	
 	.fixed-bg{
 		height:500px;
-		background-size: 100%;
+		background-size: contain;
 
 }
 
