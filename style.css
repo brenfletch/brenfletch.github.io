@@ -396,7 +396,6 @@ background: #F7B500;
 	
 	.fixed-bg{
 		height:500px;
-		background-attachment: scroll;
 		background-size: 100%;
 
 }
