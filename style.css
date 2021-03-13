@@ -395,8 +395,9 @@ background: #F7B500;
 	
 	
 	.fixed-bg{
+		background-attachment: inherit;
 		height:500px;
-		background-size: contain;
+		width:100%
 
 }
 
