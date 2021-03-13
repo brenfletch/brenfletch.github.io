@@ -7,6 +7,8 @@
 	padding:0; 
 }
 
+
+
 html, body {
 	font-family: 'Libre Caslon Text', serif;
 	font-size: 18px;
@@ -29,15 +31,7 @@ a:hover{
 
 /*DESKTOP*/
 
-.container{
-	display: grid;
-    grid-template-columns: 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5%;
-	grid-gap: 2%;
-	height: 100%;
-	margin: 0 auto;
-	width:1440px;
-	
-}
+/*ELEMENTS*/
 
 header{
 	display: flex;
@@ -53,8 +47,6 @@ header{
 	line-height: 50px;
 }
 
-.menuBtn{visibility: hidden}
-
 
 main{
 	grid-column: 2 / 9;
@@ -62,11 +54,6 @@ main{
 	padding-left: 20px;
 	margin-bottom: 20px;
 
-}
-
-
-.shadow2{
-	box-shadow: inset 0px 2px 34px rgba(0, 0, 0, 0.1);
 }
 
 aside{
@@ -107,8 +94,6 @@ ul {
 }
 
 
-
-
 button{
 	 background-color: #ffffff;
 	 border: 1px solid #F7B500;
@@ -137,20 +122,6 @@ footer{
 	 margin-top:20px;
 }
 
-.home{
-	display: block; 
-	margin-bottom: 10px;
-	width: 20px;
-	height: 20px;
-}
-.email{display: block;
-width: 20px;
-	height: 20px;}
-
-.italic{
-	 font-weight: 400;
-	 font-style: italic;
-}
 
 figure{
 	width:100%;
@@ -160,6 +131,29 @@ figure{
 img {
 	width: 100%;
 	height: 100%;
+}
+
+/*CLASSES*/
+
+.container{
+	display: grid;
+    grid-template-columns: 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5%;
+	grid-gap: 2%;
+	height: 100%;
+	margin: 0 auto;
+	width:80%;
+	
+}
+
+
+.email{display: block;
+width: 20px;
+	height: 20px;}
+
+
+.italic{
+	 font-weight: 400;
+	 font-style: italic;
 }
 
 .yellow{
@@ -174,14 +168,11 @@ img {
 
 
 .fixed-bg{
-	height:700px;
 	background-attachment: fixed;
 	background-repeat:no-repeat;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 	background-size: cover;
 	background-position: center center;
+	height:700px;
 	grid-column: 1 / 13;
 	width:100%;
 }
@@ -193,6 +184,13 @@ img {
 
 .hidden{visibility: hidden}
 
+
+
+.shadow2{
+	box-shadow: inset 0px 2px 34px rgba(0, 0, 0, 0.1);
+}
+
+.menuBtn{visibility: hidden}
 
 
 
@@ -225,84 +223,6 @@ img {
 
 
 
-/*FORM*/
-.form-style-4{
-	padding: 30px 30px 15px 30px;
-}
-.form-style-4 input[type=submit],
-.form-style-4 input[type=button],
-.form-style-4 input[type=text],
-.form-style-4 input[type=email],
-.form-style-4 textarea,
-.form-style-4 label
-{
-	font-family: 'Libre Caslon Text', serif;
-	font-size: 16px;
-	color: #fff;
-
-}
-.form-style-4 label {
-	display:block;
-	margin-bottom: 30px;
-	color:#000;
-}
-.form-style-4 label > span{
-	display: inline-block;
-	float: left;
-	width: 165px;
-}
-.form-style-4 input[type=text],
-.form-style-4 input[type=email] 
-{
-	background: transparent;
-	border: none;
-	border-bottom: 1px solid #000;
-	width: 100%;
-	outline: none;
-	padding: 10px 0px 0px 0px;
-	font-style: italic;
-	color:#000;
-}
-.form-style-4 textarea{
-	font-style: italic;
-	padding: 10px 0px 0px 0px;
-	background: transparent;
-	color: #000;
-	outline: none;
-	border: none;
-	border-bottom: 1px solid #000;
-	width: 100%;
-	overflow: hidden;
-	resize:none;
-	height:20px;
-}
-
-.form-style-4 textarea:focus, 
-.form-style-4 input[type=text]:focus,
-.form-style-4 input[type=email]:focus,
-.form-style-4 input[type=email] :focus
-{
-	border-bottom: 1px solid #F7B500;
-}
-
-.form-style-4 input[type=submit],
-.form-style-4 input[type=button]{
-	 background-color: #ffffff;
-	 border: 1px solid #F7B500;
-	 border-radius: 25px;
-	 color:#000;
-	 font-family: 'Libre Caslon Text', serif;
- 	 font-size: 16px;
-	 font-style: italic;
-	 padding:10px;
-     transition-duration: 0.4s;
-     width: 200px;
-	 height: 50px;
-}
-.form-style-4 input[type=submit]:hover,
-.form-style-4 input[type=button]:hover{
-background: #F7B500;
-}
 
 
 /*DESKTOP SMALL*/
