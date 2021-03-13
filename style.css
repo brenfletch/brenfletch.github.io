@@ -1,0 +1,465 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding:0; 
+}
+
+html, body {
+	font-family: 'Libre Caslon Text', serif;
+	font-size: 18px;
+	letter-spacing: 1px;
+	height: 100%;
+	margin-top: 30px;
+}
+
+a{
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #F7B500;
+	text-decoration: none;
+}
+
+
+/*DESKTOP*/
+
+.container{
+	display: grid;
+    grid-template-columns: 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5%;
+	grid-gap: 2%;
+	height: 100%;
+	margin: 0 auto;
+	width:1440px;
+	
+}
+
+header{
+	display: flex;
+	height: 50px;
+	justify-content:space-between;
+	grid-column: 2 / 9;
+	margin-bottom:60px;
+}
+
+#logo{
+	color: #F7B500;
+	width: 100%;
+	line-height: 50px;
+}
+
+.menuBtn{visibility: hidden}
+
+
+main{
+	grid-column: 2 / 9;
+	border-left:1px solid #F7B500;
+	padding-left: 20px;
+	margin-bottom: 20px;
+
+}
+
+
+.shadow2{
+	box-shadow: inset 0px 2px 34px rgba(0, 0, 0, 0.1);
+}
+
+aside{
+	display: flex;
+	flex-direction: column;
+	justify-content:flex-start;
+	grid-column: 10 / 12;
+	width: 100%;
+}
+
+h1{
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 68px;
+	margin-bottom: 60px;
+}
+
+h2{
+	margin:25px 0 15px;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+h3{
+	margin:25px 0 15px;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+p{
+	line-height: 32px;
+}
+
+ul {
+	font-size: 16px;
+    list-style-type: none;
+    line-height: 40px;
+}
+
+
+
+
+button{
+	 background-color: #ffffff;
+	 border: 1px solid #F7B500;
+	 border-radius: 25px;
+	 font-family: 'Libre Caslon Text', serif;
+ 	 font-size: 16px;
+	 font-style: italic;
+	 padding:10px;
+     transition-duration: 0.4s;
+     width: 200px;
+	 height: 50px;
+  
+}
+
+button:hover {
+     background-color: #F7B500;
+     color: #fff;
+}
+
+footer{
+	 display: flex;
+	 justify-content:space-between;
+	 align-items: flex-start;
+	 grid-column: 2 / 12;
+	 height: 100px;
+	 margin-top:20px;
+}
+
+.home{
+	display: block; 
+	margin-bottom: 10px;
+	width: 20px;
+	height: 20px;
+}
+.email{display: block;
+width: 20px;
+	height: 20px;}
+
+.italic{
+	 font-weight: 400;
+	 font-style: italic;
+}
+
+figure{
+	width:100%;
+	height:auto;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+.yellow{
+	color:#F7B500
+}
+
+.social{
+	width: 20px;
+	height: 20px;
+	margin-left:5px; 
+}
+
+
+
+
+.portfolioimage{
+	background-color: aqua;
+	grid-column: 1 / 13;
+}
+
+.fixed-bg{
+	height:700px;
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center center;
+	grid-column: 1 / 13;
+}
+
+.scroll-bg {
+	background-color:#fff;
+	color:#000;
+}
+
+
+
+
+
+/*WORK IMAGES*/
+	
+	.bg-1{
+		background-image: url('img/work/bg-1.png')
+	}
+    .bg-2{
+		background-image: url('img/work/bg-2.png')
+	}
+    .bg-3{
+		background-image: url('img/work/bg-3.png')
+	}
+    .bg-4{
+		background-image: url('img/work/bg-4.png')
+	}
+    .bg-5{
+		background-image: url('img/work/bg-5.png')
+	}
+    .bg-6{
+		background-image: url('img/work/bg-6.png')
+	}
+ .bg-7{
+		background-image: url('img/work/bg-7.png')
+	}
+    .bg-8{
+		background-image: url('img/work/bg-8.png')
+	}
+
+
+
+
+
+/*DESKTOP SMALL*/
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+	
+	.container{
+	    grid-template-columns: 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5%;
+	    grid-gap: 2%;
+		width: 100%;
+	}
+	
+	header{
+	  display: flex;
+	  justify-content:space-between;
+	  grid-column: 2 / 12;
+}
+
+	
+	main{
+	  grid-column: 2 / 8;
+	  margin-bottom: 20px;
+}
+	aside{
+	margin-top: 0;
+	grid-column: 9 / 12;
+}
+	
+	ul {
+   list-style-type: none;
+   line-height: 28px;
+}
+	
+	h1{font-size: 48px;}
+
+
+ 
+	footer{
+	   display: flex;
+	   flex-direction: row;
+	   grid-column: 2 / 12;
+	   justify-content: space-between;
+
+}
+	
+}
+
+
+/*TABLET*/
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+	
+	.container{
+	    grid-template-columns: 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5%;
+	    grid-gap: 2%;
+		width: 100%;
+	}
+	
+	a:hover{color:#fff}
+	
+	header{
+	  display: flex;
+	  justify-content:space-between;
+	  grid-column: 2 / 12;
+}
+	
+	.menuBtn{visibility: visible;}
+	
+	main{
+	  grid-column: 2 / 12;
+	  margin-bottom: 20px;
+}
+	aside{
+	grid-column: 2 / 12;
+	}
+	
+	
+	ul {
+   list-style-type: none;
+   line-height: 28px;
+}
+	
+	h1{font-size: 36px;
+	line-height: 56px;}
+
+	
+	.work{
+		display:none
+	}
+	
+	
+	.fixed-bg{
+	height:315px;
+}
+	
+	
+	
+	button{
+	  visibility:hidden;
+  
+}
+ 
+	footer{
+	   display: flex;
+	   grid-column: 2 / 12;
+	   justify-content: space-between;
+	   margin-top:40px;
+	
+}
+	
+}
+
+
+
+/*MOBILE LARGE*/
+
+@media only screen and (min-width: 415px) and (max-width: 767px) {
+	
+	.container{
+	    grid-gap: 7%;
+		grid-template-columns: 10.75% 10.75% 10.75% 10.75% 10.75% 10.75% 10.75% 10.75% ;
+		width: 100%;
+	}
+	
+	a:hover{color:#fff}
+	
+	header{
+	  display: flex;
+	  justify-content:space-between;
+	  grid-column: 2 / 8;
+	  margin:0 30px;
+}
+	.menuBtn{visibility: visible;}
+	
+	main{
+	    grid-column: 2 / 8;
+		margin:40px 30px 0;
+}
+	
+	
+	aside{
+	    grid-column: 2 / 8;
+}
+	
+	h1{font-size: 32px;
+	line-height: 48px;}
+	
+	
+.work{display:none}
+	
+	
+	button{
+	  visibility:hidden;
+}
+ 
+	footer{
+	   border-top: 1px solid #979797;
+	   display: flex;
+	   grid-column: 2 / 8;
+	   justify-content: space-between;
+	   margin:40px 30px;
+	}
+	
+	
+		.fixed-bg{height:320px;
+}
+	
+	
+}
+
+
+
+
+/*MOBILE SMALL*/
+
+@media only screen and (min-width: 319px) and (max-width:414px) {
+	
+	.container{
+	    grid-gap: 0;
+		grid-template-columns: 100%;
+		width: 100%;
+	}
+	
+	a:hover{color:#fff}
+	
+	header{
+	  display: flex;
+	  justify-content:space-between;
+	  grid-column: 1 / 2;
+	  margin:0 30px;
+}
+	.menuBtn{visibility: visible;}
+	
+	
+	main{
+		grid-column: 1 / 2;
+	    margin:40px 30px ;
+}
+	aside{
+	grid-column: 1 / 2;	
+	
+}
+
+	h1{font-size: 32px;
+	line-height: 48px;}
+	
+	.work{display: none}
+	
+	button{
+	  visibility:hidden;
+  
+}
+	
+	
+	.fixed-bg{height:320px;}
+
+ 
+	footer{
+	   display: flex;
+	   grid-column: 1 / 2;
+	   justify-content: space-between;
+	   margin-top:40px;
+	   padding-right:30px;
+	   width: 100%;
+	
+}
+	
+
+
+	
+}
+
+
+
+
+
+
