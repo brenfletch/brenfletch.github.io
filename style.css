@@ -138,7 +138,9 @@ img {
 
 .container{
 	display: grid;
-    grid-template-columns: 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5%;
+	display: -ms-grid;
+  grid-template-columns: 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5%;
+	-ms-grid-columns: 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5%;
 	grid-gap: 2%;
 	height: 100%;
 	margin: 0 auto;
@@ -239,8 +241,9 @@ width: 20px;
 
 	.container{
 	    grid-template-columns: 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5%;
+			-ms-grid-columns: 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5%;
 	    grid-gap: 2%;
-		width: 100%;
+		  width: 100%;
 	}
 
 	header{
@@ -293,6 +296,7 @@ width: 20px;
 
 	.container{
 	    grid-template-columns: 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5%;
+			-ms-grid-columns: 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5%;
 	    grid-gap: 2%;
 		width: 100%;
 	}
@@ -355,8 +359,9 @@ width: 20px;
 @media only screen and (min-width: 415px) and (max-width: 767px) {
 
 	.container{
-	    grid-gap: 7%;
+	  grid-gap: 7%;
 		grid-template-columns: 10.75% 10.75% 10.75% 10.75% 10.75% 10.75% 10.75% 10.75% ;
+		-ms-grid-columns: 10.75% 10.75% 10.75% 10.75% 10.75% 10.75% 10.75% 10.75%;
 		width: 100%;
 	}
 
