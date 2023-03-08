@@ -24,7 +24,7 @@ a{
 }
 
 a:hover{
-	color: #6667ab;
+	color: #BE3455;
 	text-decoration: none;
 }
 
@@ -43,7 +43,7 @@ header{
 }
 
 #logo{
-	color: #6667ab;
+	color: #BE3455;
 	width: 100%;
 	line-height: 50px;
 }
@@ -99,7 +99,7 @@ ul {
 
 button{
 	 background-color: #ffffff;
-	 border: 2px solid #6667ab;
+	 border: 2px solid #BE3455;
 	 border-radius: 25px;
 	 font-family: 'Libre Caslon Text', serif;
  	 font-size: 16px;
@@ -112,7 +112,7 @@ button{
 }
 
 button:hover {
-     background-color: #6667ab;
+     background-color: #BE3455;
      color: #fff;
 }
 
@@ -167,7 +167,7 @@ width: 20px;
 }
 
 .pantone{
-	color:#6667ab
+	color:#BE3455
 }
 
 .social{
